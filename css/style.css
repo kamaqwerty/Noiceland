@@ -85,7 +85,24 @@ ul{
 
 /* Card-list */
 
+.row{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  row-gap: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 .card{
+  width: 30%;
   text-transform: uppercase;
+}
+
+.card img{
+  width: 96%;
+  height: 300px;
 }
