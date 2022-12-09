@@ -83,7 +83,7 @@ ul{
 }
 
 
-/* Card-list */
+/* Card-list-medium-size */
 
 .row{
   width: 90%;
@@ -94,15 +94,194 @@ ul{
   margin: auto;
   row-gap: 80px;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
-.card{
+.card-medium{
   width: 30%;
   text-transform: uppercase;
 }
 
-.card img{
+.card-medium img{
   width: 96%;
   height: 300px;
+}
+
+/* Card-list-small-size */
+
+.latest-posts{
+  margin-left: 185px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.small-card_row {
+  gap: 30px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  row-gap: 30px;
+  margin-bottom: 60px;
+}
+
+.small-card_row button {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;  
+  padding: 21px 26px;
+}
+
+.small-card {
+  width: 23%;
+  height: 390px;
+  text-transform: uppercase;
+}
+
+.small-card img {
+  width: 96%;
+  height: 180px;
+}
+
+.small-card p {
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+}
+
+.small-card h3 {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.small-card b {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+}
+
+/* Card-list-large-size */
+
+.featured-posts {
+  margin-left: 185px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.large-card {
+  width: 44%;
+  height: 540px;
+  text-transform: uppercase;
+}
+
+.large-card img {
+  width: 96%;
+  height: 400px;
+}
+
+.large-card h3 {
+  font-family: 'Tenor Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+}
+
+/* footer */
+
+.footer {
+  background: #141414;
+  height: 700px;
+}
+
+.footer hr {
+  margin-top: 40px;
+}
+
+.footer .footer-top {
+  display: flex;
+  align-items: center;
+  margin-left: 185px;
+}
+
+.footer-top h1 { 
+  color: white;
+  margin-top: 100px;
+}
+
+.footer-top p {
+  color: #666666;
+  margin-top: 100px;
+}
+
+.footer-top .subscribe{
+  margin-left: 580px;
+}
+
+.footer-top .subscribe h3{
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-size: 18px;
+  color: #666666; 
+}
+
+.footer-top .subscribe input{
+  width: 230px;
+  height: 48px;
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+}
+
+.footer-top .subscribe .button {
+  width: 80px;
+  height: 54px;
+  background-color: black;
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.inline-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 150px;
+}
+
+.inline-list h3 {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase; 
+  color: #666666;
+}
+
+.inline-list ul li {
+  cursor: pointer;
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  line-height: 45px;
 }
