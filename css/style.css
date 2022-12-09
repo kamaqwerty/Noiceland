@@ -105,4 +105,22 @@ ul{
 .card img{
   width: 96%;
   height: 300px;
+  cursor: pointer;
+}
+
+.card p {
+  color:#999999;
+}
+
+.card h3{
+  font-size: 24px;
+}
+
+.card b{
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.card_list{
+  padding-bottom: 26px;
 }
