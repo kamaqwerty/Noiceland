@@ -136,6 +136,7 @@ ul{
   letter-spacing: 1px;
   text-transform: uppercase;  
   padding: 21px 26px;
+  cursor: pointer;
 }
 
 .small-card {
@@ -245,16 +246,19 @@ ul{
   font-weight: 400;
   font-size: 14px;
   color: #666666;
+  margin-right: -2%;
 }
 
 .footer-top .subscribe .button {
   width: 80px;
-  height: 54px;
+  height: 58px;
   background-color: black;
   font-family: 'Libre Franklin';
   font-weight: 400;
   font-size: 14px;
   color: #FFFFFF;
+  border: 0;
+  cursor: pointer;
 }
 
 .inline-list {
